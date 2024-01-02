@@ -1,0 +1,2 @@
+axilite_clock_converter_0.v,verilog,xil_defaultlib,../../../../dma.gen/sources_1/ip/axilite_clock_converter_0/sim/axilite_clock_converter_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

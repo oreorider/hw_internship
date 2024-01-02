@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Nov 14 21:14:06 2023
+# Process ID: 27392
+# Current directory: C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23116 C:\Users\Young Jae\OneDrive - SNU\maskgenFPGA\dfx\ip\dma\vivado\dma\dma.xpr
+# Log file: C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/vivado.log
+# Journal file: C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma\vivado.jou
+# Running On: sml, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 16902 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/dma.xpr}
+launch_simulation
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/initialization_tb_behav.wcfg}
+source initialization_tb.tcl
+run 8 ms
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 8 ms
+save_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/initialization_tb_behav.wcfg}
+close_sim

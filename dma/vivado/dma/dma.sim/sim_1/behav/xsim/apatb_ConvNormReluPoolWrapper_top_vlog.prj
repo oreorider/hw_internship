@@ -1,0 +1,54 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../dma.ip_user_files/ipstatic/hdl" \
+"../../../../dma.gen/sources_1/ip/axi_clock_converter_0/sim/axi_clock_converter_0.v" \
+"../../../../dma.gen/sources_1/ip/axilite_clock_converter_0/sim/axilite_clock_converter_0.v" \
+"../../../../dma.gen/sources_1/ip/bias_blk_mem/sim/bias_blk_mem.v" \
+"../../../../dma.gen/sources_1/ip/scale_blk_mem/sim/scale_blk_mem.v" \
+"../../../../dma.gen/sources_1/ip/weight_0_blk_mem/sim/weight_0_blk_mem.v" \
+"../../../../dma.gen/sources_1/ip/weight_1_blk_mem/sim/weight_1_blk_mem.v" \
+"../../../../dma.gen/sources_1/ip/weight_2_blk_mem/sim/weight_2_blk_mem.v" \
+"../../../../dma.gen/sources_1/ip/ifm_data_128x32768/sim/ifm_data_128x32768.v" \
+"../../../../dma.gen/sources_1/ip/layer1_line_buffer_128x256/sim/layer1_line_buffer_128x256.v" \
+"../../../../dma.gen/sources_1/ip/l1_o_data_128x4096/sim/l1_o_data_128x4096.v" \
+"../../../../dma.gen/sources_1/ip/layer2_line_buffer_192x32/sim/layer2_line_buffer_192x32.v" \
+"../../../../../../verilog/S_axilite.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/act_shifter.v" \
+
+sv xil_defaultlib  --include "../../../../dma.ip_user_files/ipstatic/hdl" \
+"../../../../../../verilog/params.v" \
+
+verilog xil_defaultlib  --include "../../../../dma.ip_user_files/ipstatic/hdl" \
+"../../../../../../verilog/axi_dma_rd.v" \
+"../../../../../../verilog/axi_dma_wr.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/bias_shifter.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/bnorm_quant_act.v" \
+"../../../../../../verilog/cnn_dma_axi.v" \
+"../../../../../../verilog/cnn_fsm.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/conv_kern.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/conv_kern_wrapper_mask.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/dsp_wrapper.v" \
+"../../../../../../verilog/dual_port_block_ram.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/cnn_accel_h.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/mac.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/mac_kern.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/mask_gen_fsm.v" \
+"../../../../dma.srcs/sources_1/imports/mask_calc/mask_maker.v" \
+"../../../../../../verilog/out_writer.v" \
+"../../../../../../verilog/reg_fifo.v" \
+"../../../../../../verilog/cnn_dma_wrapper.v" \
+"../../../../../../verilog/AESL_axi_master_memory_bus.v" \
+"../../../../../../verilog/AESL_axi_slave_axilite.v" \
+"../../../../../../verilog/ConvNormReluPoolWrapper.autotb.v" \
+"../../../../../../verilog/ConvNormReluPoolWrapper_memory_bus_m_axi.v" \
+"../../../../../../verilog/cnn_accel_h.v" \
+"../../../../dma.srcs/sources_1/new/line_buffer_wrapper_l1.v" \
+"../../../../dma.srcs/sources_1/new/line_buffer_wrapper_l2.v" \
+"../../../../dma.gen/sources_1/ip/l2_o_data_128x4096/sim/l2_o_data_128x4096.v" \
+"../../../../dma.srcs/sources_1/new/bmp_image_writer.v" \
+"../../../../dma.srcs/sources_1/new/initialization_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

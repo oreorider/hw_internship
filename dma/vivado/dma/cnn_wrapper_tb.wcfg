@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="apatb_ConvNormReluPoolWrapper_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_ConvNormReluPoolWrapper_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="22,029.904084 us"></ZoomStartTime>
+      <ZoomEndTime time="22,216.589184 us"></ZoomEndTime>
+      <Cursor1Time time="22,185.475000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="321"></NameColumnWidth>
+      <ValueColumnWidth column_width="276"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_clk" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ap_clk</obj_property>
+      <obj_property name="ObjectShortName">ap_clk</obj_property>
+      <obj_property name="label">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1309" type="group">
+      <obj_property name="label">ap status</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_rst_n" type="logic">
+         <obj_property name="ElementShortName">ap_rst_n</obj_property>
+         <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_ready" type="logic">
+         <obj_property name="ElementShortName">ap_ready</obj_property>
+         <obj_property name="ObjectShortName">ap_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_done" type="logic">
+         <obj_property name="ElementShortName">ap_done</obj_property>
+         <obj_property name="ObjectShortName">ap_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_start" type="logic">
+         <obj_property name="ElementShortName">ap_start</obj_property>
+         <obj_property name="ObjectShortName">ap_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_idle" type="logic">
+         <obj_property name="ElementShortName">ap_idle</obj_property>
+         <obj_property name="ObjectShortName">ap_idle</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group367" type="group">
+      <obj_property name="label">cnn_axi (FULL AXI)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group400" type="group">
+         <obj_property name="label">parameter inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/read_address" type="array">
+            <obj_property name="ElementShortName">read_address[31:0]</obj_property>
+            <obj_property name="ObjectShortName">read_address[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/write_address" type="array">
+            <obj_property name="ElementShortName">write_address[31:0]</obj_property>
+            <obj_property name="ObjectShortName">write_address[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/input_width" type="array">
+            <obj_property name="ElementShortName">input_width[11:0]</obj_property>
+            <obj_property name="ObjectShortName">input_width[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/input_height" type="array">
+            <obj_property name="ElementShortName">input_height[11:0]</obj_property>
+            <obj_property name="ObjectShortName">input_height[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/input_framesize" type="array">
+            <obj_property name="ElementShortName">input_framesize[23:0]</obj_property>
+            <obj_property name="ObjectShortName">input_framesize[23:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/layer_idx_dbg" type="array">
+            <obj_property name="ElementShortName">layer_idx_dbg[3:0]</obj_property>
+            <obj_property name="ObjectShortName">layer_idx_dbg[3:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group371" type="group">
+         <obj_property name="label">READ channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="group372" type="group">
+            <obj_property name="label">control</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARID" type="array">
+               <obj_property name="ElementShortName">M_ARID[0:0]</obj_property>
+               <obj_property name="ObjectShortName">M_ARID[0:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARVALID" type="logic">
+               <obj_property name="ElementShortName">M_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">M_ARVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARREADY" type="logic">
+               <obj_property name="ElementShortName">M_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">M_ARREADY</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARADDR" type="array">
+               <obj_property name="ElementShortName">M_ARADDR[31:0]</obj_property>
+               <obj_property name="ObjectShortName">M_ARADDR[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARID" type="array">
+               <obj_property name="ElementShortName">M_ARID[0:0]</obj_property>
+               <obj_property name="ObjectShortName">M_ARID[0:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARLEN" type="array">
+               <obj_property name="ElementShortName">M_ARLEN[7:0]</obj_property>
+               <obj_property name="ObjectShortName">M_ARLEN[7:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARSIZE" type="array">
+               <obj_property name="ElementShortName">M_ARSIZE[2:0]</obj_property>
+               <obj_property name="ObjectShortName">M_ARSIZE[2:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_ARBURST" type="array">
+               <obj_property name="ElementShortName">M_ARBURST[1:0]</obj_property>
+               <obj_property name="ObjectShortName">M_ARBURST[1:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group376" type="group">
+            <obj_property name="label">data</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_RVALID" type="logic">
+               <obj_property name="ElementShortName">M_RVALID</obj_property>
+               <obj_property name="ObjectShortName">M_RVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_RREADY" type="logic">
+               <obj_property name="ElementShortName">M_RREADY</obj_property>
+               <obj_property name="ObjectShortName">M_RREADY</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_RDATA" type="array">
+               <obj_property name="ElementShortName">M_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">M_RDATA[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_RLAST" type="logic">
+               <obj_property name="ElementShortName">M_RLAST</obj_property>
+               <obj_property name="ObjectShortName">M_RLAST</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_RRESP" type="array">
+               <obj_property name="ElementShortName">M_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">M_RRESP[1:0]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group377" type="group">
+         <obj_property name="label">WRITE channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="group381" type="group">
+            <obj_property name="label">control</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_AWADDR" type="array">
+               <obj_property name="ElementShortName">M_AWADDR[31:0]</obj_property>
+               <obj_property name="ObjectShortName">M_AWADDR[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_AWVALID" type="logic">
+               <obj_property name="ElementShortName">M_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">M_AWVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_AWREADY" type="logic">
+               <obj_property name="ElementShortName">M_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">M_AWREADY</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_AWLEN" type="array">
+               <obj_property name="ElementShortName">M_AWLEN[7:0]</obj_property>
+               <obj_property name="ObjectShortName">M_AWLEN[7:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_AWSIZE" type="array">
+               <obj_property name="ElementShortName">M_AWSIZE[2:0]</obj_property>
+               <obj_property name="ObjectShortName">M_AWSIZE[2:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_AWBURST" type="array">
+               <obj_property name="ElementShortName">M_AWBURST[1:0]</obj_property>
+               <obj_property name="ObjectShortName">M_AWBURST[1:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group385" type="group">
+            <obj_property name="label">data</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_WDATA" type="array">
+               <obj_property name="ElementShortName">M_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">M_WDATA[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_WVALID" type="logic">
+               <obj_property name="ElementShortName">M_WVALID</obj_property>
+               <obj_property name="ObjectShortName">M_WVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_WREADY" type="logic">
+               <obj_property name="ElementShortName">M_WREADY</obj_property>
+               <obj_property name="ObjectShortName">M_WREADY</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_WLAST" type="logic">
+               <obj_property name="ElementShortName">M_WLAST</obj_property>
+               <obj_property name="ObjectShortName">M_WLAST</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_WSTRB" type="array">
+               <obj_property name="ElementShortName">M_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">M_WSTRB[3:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group386" type="group">
+            <obj_property name="label">write resp</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_BRESP" type="array">
+               <obj_property name="ElementShortName">M_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">M_BRESP[1:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_BVALID" type="logic">
+               <obj_property name="ElementShortName">M_BVALID</obj_property>
+               <obj_property name="ObjectShortName">M_BVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/M_BREADY" type="logic">
+               <obj_property name="ElementShortName">M_BREADY</obj_property>
+               <obj_property name="ObjectShortName">M_BREADY</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group756" type="group">
+         <obj_property name="label">dma signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/start_addr_ld" type="array">
+            <obj_property name="ElementShortName">start_addr_ld[31:0]</obj_property>
+            <obj_property name="ObjectShortName">start_addr_ld[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/start_dma_ld" type="logic">
+            <obj_property name="ElementShortName">start_dma_ld</obj_property>
+            <obj_property name="ObjectShortName">start_dma_ld</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/num_trans_ld" type="array">
+            <obj_property name="ElementShortName">num_trans_ld[9:0]</obj_property>
+            <obj_property name="ObjectShortName">num_trans_ld[9:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/data_o_ld" type="array">
+            <obj_property name="ElementShortName">data_o_ld[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_o_ld[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/data_vld_o_ld" type="logic">
+            <obj_property name="ElementShortName">data_vld_o_ld</obj_property>
+            <obj_property name="ObjectShortName">data_vld_o_ld</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/data_last_o_ld" type="logic">
+            <obj_property name="ElementShortName">data_last_o_ld</obj_property>
+            <obj_property name="ObjectShortName">data_last_o_ld</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/data_cnt_o" type="array">
+            <obj_property name="ElementShortName">data_cnt_o[9:0]</obj_property>
+            <obj_property name="ObjectShortName">data_cnt_o[9:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/in_img_addr_offset" type="array">
+            <obj_property name="ElementShortName">in_img_addr_offset[24:0]</obj_property>
+            <obj_property name="ObjectShortName">in_img_addr_offset[24:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/ap_start" type="logic">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="group399" type="group">
+      <obj_property name="label">S_AXILITE (no burst stuff)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group437" type="group">
+         <obj_property name="label">READ channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group438" type="group">
+            <obj_property name="label">control</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/ARADDR" type="array">
+               <obj_property name="ElementShortName">ARADDR[4:0]</obj_property>
+               <obj_property name="ObjectShortName">ARADDR[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/ARVALID" type="logic">
+               <obj_property name="ElementShortName">ARVALID</obj_property>
+               <obj_property name="ObjectShortName">ARVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/ARREADY" type="logic">
+               <obj_property name="ElementShortName">ARREADY</obj_property>
+               <obj_property name="ObjectShortName">ARREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group442" type="group">
+            <obj_property name="label">data</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/RDATA" type="array">
+               <obj_property name="ElementShortName">RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">RDATA[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/RVALID" type="logic">
+               <obj_property name="ElementShortName">RVALID</obj_property>
+               <obj_property name="ObjectShortName">RVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/RREADY" type="logic">
+               <obj_property name="ElementShortName">RREADY</obj_property>
+               <obj_property name="ObjectShortName">RREADY</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group397" type="group">
+         <obj_property name="label">WRITE channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group398" type="group">
+            <obj_property name="label">control</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/AWADDR" type="array">
+               <obj_property name="ElementShortName">AWADDR[4:0]</obj_property>
+               <obj_property name="ObjectShortName">AWADDR[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/AWVALID" type="logic">
+               <obj_property name="ElementShortName">AWVALID</obj_property>
+               <obj_property name="ObjectShortName">AWVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/AWREADY" type="logic">
+               <obj_property name="ElementShortName">AWREADY</obj_property>
+               <obj_property name="ObjectShortName">AWREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group401" type="group">
+            <obj_property name="label">data</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/WDATA" type="array">
+               <obj_property name="ElementShortName">WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">WDATA[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/WVALID" type="logic">
+               <obj_property name="ElementShortName">WVALID</obj_property>
+               <obj_property name="ObjectShortName">WVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/WREADY" type="logic">
+               <obj_property name="ElementShortName">WREADY</obj_property>
+               <obj_property name="ObjectShortName">WREADY</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/WSTRB" type="array">
+               <obj_property name="ElementShortName">WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">WSTRB[3:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group446" type="group">
+            <obj_property name="label">write resp</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/BRESP" type="array">
+               <obj_property name="ElementShortName">BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">BRESP[1:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/BVALID" type="logic">
+               <obj_property name="ElementShortName">BVALID</obj_property>
+               <obj_property name="ObjectShortName">BVALID</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/BREADY" type="logic">
+               <obj_property name="ElementShortName">BREADY</obj_property>
+               <obj_property name="ObjectShortName">BREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/aw_hs" type="logic">
+            <obj_property name="ElementShortName">aw_hs</obj_property>
+            <obj_property name="ObjectShortName">aw_hs</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/w_hs" type="logic">
+            <obj_property name="ElementShortName">w_hs</obj_property>
+            <obj_property name="ObjectShortName">w_hs</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group595" type="group">
+         <obj_property name="label">written parameters</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_ap_idle" type="logic">
+            <obj_property name="ElementShortName">int_ap_idle</obj_property>
+            <obj_property name="ObjectShortName">int_ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_ap_ready" type="logic">
+            <obj_property name="ElementShortName">int_ap_ready</obj_property>
+            <obj_property name="ObjectShortName">int_ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_ap_done" type="logic">
+            <obj_property name="ElementShortName">int_ap_done</obj_property>
+            <obj_property name="ObjectShortName">int_ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_ap_start" type="logic">
+            <obj_property name="ElementShortName">int_ap_start</obj_property>
+            <obj_property name="ObjectShortName">int_ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_auto_restart" type="logic">
+            <obj_property name="ElementShortName">int_auto_restart</obj_property>
+            <obj_property name="ObjectShortName">int_auto_restart</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_read_address" type="array">
+            <obj_property name="ElementShortName">int_read_address[31:0]</obj_property>
+            <obj_property name="ObjectShortName">int_read_address[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_write_address" type="array">
+            <obj_property name="ElementShortName">int_write_address[31:0]</obj_property>
+            <obj_property name="ObjectShortName">int_write_address[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_width_height" type="array">
+            <obj_property name="ElementShortName">int_width_height[31:0]</obj_property>
+            <obj_property name="ObjectShortName">int_width_height[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_axi_lite_slave/int_framesize" type="array">
+            <obj_property name="ElementShortName">int_framesize[31:0]</obj_property>
+            <obj_property name="ObjectShortName">int_framesize[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group671" type="group">
+      <obj_property name="label">maskmaker</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/mask_layer" type="array">
+         <obj_property name="ElementShortName">mask_layer[1:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_layer[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/maskgen_finished" type="logic">
+         <obj_property name="ElementShortName">maskgen_finished</obj_property>
+         <obj_property name="ObjectShortName">maskgen_finished</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/conv_out_pix" type="array">
+         <obj_property name="ElementShortName">conv_out_pix[31:0]</obj_property>
+         <obj_property name="ObjectShortName">conv_out_pix[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/conv_out_pix_vld" type="logic">
+         <obj_property name="ElementShortName">conv_out_pix_vld</obj_property>
+         <obj_property name="ObjectShortName">conv_out_pix_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="group3759" type="group">
+         <obj_property name="label">ifm_data</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_addr" type="array">
+            <obj_property name="ElementShortName">ifm_data_addr[14:0]</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_addr[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_wr_data" type="array">
+            <obj_property name="ElementShortName">ifm_data_wr_data[127:0]</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_wr_data[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_ena" type="logic">
+            <obj_property name="ElementShortName">ifm_data_ena</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_wr_ena" type="logic">
+            <obj_property name="ElementShortName">ifm_data_wr_ena</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_wr_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_addr_adv" type="array">
+            <obj_property name="ElementShortName">ifm_data_addr_adv[14:0]</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_addr_adv[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_rd_data" type="array">
+            <obj_property name="ElementShortName">ifm_data_rd_data[127:0]</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_rd_data[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/read_IFM_finished" type="logic">
+            <obj_property name="ElementShortName">read_IFM_finished</obj_property>
+            <obj_property name="ObjectShortName">read_IFM_finished</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ap_start" type="logic">
+         <obj_property name="ElementShortName">ap_start</obj_property>
+         <obj_property name="ObjectShortName">ap_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="group787" type="group">
+         <obj_property name="label">fsm ctrl signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ctrl_data_run" type="logic">
+            <obj_property name="ElementShortName">ctrl_data_run</obj_property>
+            <obj_property name="ObjectShortName">ctrl_data_run</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ctrl_sync_run" type="logic">
+            <obj_property name="ElementShortName">ctrl_sync_run</obj_property>
+            <obj_property name="ObjectShortName">ctrl_sync_run</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ctrl_load_batch" type="logic">
+            <obj_property name="ElementShortName">ctrl_load_batch</obj_property>
+            <obj_property name="ObjectShortName">ctrl_load_batch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ctrl_skip_run" type="logic">
+            <obj_property name="ElementShortName">ctrl_skip_run</obj_property>
+            <obj_property name="ObjectShortName">ctrl_skip_run</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1182" type="group">
+         <obj_property name="label">kernel IO</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/din0" type="array">
+            <obj_property name="ElementShortName">din0[31:0]</obj_property>
+            <obj_property name="ObjectShortName">din0[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/din1" type="array">
+            <obj_property name="ElementShortName">din1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">din1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/din2" type="array">
+            <obj_property name="ElementShortName">din2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">din2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/din3" type="array">
+            <obj_property name="ElementShortName">din3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">din3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/win0" type="array">
+            <obj_property name="ElementShortName">win0[31:0]</obj_property>
+            <obj_property name="ObjectShortName">win0[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/win1" type="array">
+            <obj_property name="ElementShortName">win1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">win1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/win2" type="array">
+            <obj_property name="ElementShortName">win2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">win2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/win3" type="array">
+            <obj_property name="ElementShortName">win3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">win3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/acc_o" type="array">
+            <obj_property name="ElementShortName">acc_o[127:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_o[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/vld_o" type="array">
+            <obj_property name="ElementShortName">vld_o[15:0]</obj_property>
+            <obj_property name="ObjectShortName">vld_o[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/bias" type="array">
+            <obj_property name="ElementShortName">bias[63:0]</obj_property>
+            <obj_property name="ObjectShortName">bias[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/scale" type="array">
+            <obj_property name="ElementShortName">scale[63:0]</obj_property>
+            <obj_property name="ObjectShortName">scale[63:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1222" type="group">
+         <obj_property name="label">sender</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/omask_out_pix" type="array">
+            <obj_property name="ElementShortName">omask_out_pix[31:0]</obj_property>
+            <obj_property name="ObjectShortName">omask_out_pix[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/omask_out_pix_vld" type="logic">
+            <obj_property name="ElementShortName">omask_out_pix_vld</obj_property>
+            <obj_property name="ObjectShortName">omask_out_pix_vld</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/sender_cstate" type="array">
+            <obj_property name="ElementShortName">sender_cstate[2:0]</obj_property>
+            <obj_property name="ObjectShortName">sender_cstate[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_addr" type="array">
+            <obj_property name="ElementShortName">ifm_data_addr[14:0]</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_addr[14:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/ifm_data_ena" type="logic">
+            <obj_property name="ElementShortName">ifm_data_ena</obj_property>
+            <obj_property name="ObjectShortName">ifm_data_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/all_done" type="logic">
+            <obj_property name="ElementShortName">all_done</obj_property>
+            <obj_property name="ObjectShortName">all_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group4213" type="group">
+         <obj_property name="label">blk mem fsm</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/blk_mem_cstate" type="array">
+            <obj_property name="ElementShortName">blk_mem_cstate[2:0]</obj_property>
+            <obj_property name="ObjectShortName">blk_mem_cstate[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/blk_mem_nstate" type="array">
+            <obj_property name="ElementShortName">blk_mem_nstate[2:0]</obj_property>
+            <obj_property name="ObjectShortName">blk_mem_nstate[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/blk_mem_init_finish" type="logic">
+            <obj_property name="ElementShortName">blk_mem_init_finish</obj_property>
+            <obj_property name="ObjectShortName">blk_mem_init_finish</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group4712" type="group">
+         <obj_property name="label">blk mem data signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/q_current_conv_layer" type="array">
+            <obj_property name="ElementShortName">q_current_conv_layer[4:0]</obj_property>
+            <obj_property name="ObjectShortName">q_current_conv_layer[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/bias_blk_mem_addr" type="array">
+            <obj_property name="ElementShortName">bias_blk_mem_addr[7:0]</obj_property>
+            <obj_property name="ObjectShortName">bias_blk_mem_addr[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/bias_blk_mem_ena" type="logic">
+            <obj_property name="ElementShortName">bias_blk_mem_ena</obj_property>
+            <obj_property name="ObjectShortName">bias_blk_mem_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/bias_blk_mem_data" type="array">
+            <obj_property name="ElementShortName">bias_blk_mem_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">bias_blk_mem_data[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/scale_blk_mem_addr" type="array">
+            <obj_property name="ElementShortName">scale_blk_mem_addr[7:0]</obj_property>
+            <obj_property name="ObjectShortName">scale_blk_mem_addr[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/scale_blk_mem_ena" type="logic">
+            <obj_property name="ElementShortName">scale_blk_mem_ena</obj_property>
+            <obj_property name="ObjectShortName">scale_blk_mem_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/scale_blk_mem_data" type="array">
+            <obj_property name="ElementShortName">scale_blk_mem_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">scale_blk_mem_data[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_0_blk_mem_addr" type="array">
+            <obj_property name="ElementShortName">weight_0_blk_mem_addr[4:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_0_blk_mem_addr[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_0_blk_mem_ena" type="logic">
+            <obj_property name="ElementShortName">weight_0_blk_mem_ena</obj_property>
+            <obj_property name="ObjectShortName">weight_0_blk_mem_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_0_blk_mem_data" type="array">
+            <obj_property name="ElementShortName">weight_0_blk_mem_data[255:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_0_blk_mem_data[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/u_weight_0_blk_mem/addra" type="array">
+            <obj_property name="ElementShortName">addra[4:0]</obj_property>
+            <obj_property name="ObjectShortName">addra[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/u_weight_0_blk_mem/douta" type="array">
+            <obj_property name="ElementShortName">douta[255:0]</obj_property>
+            <obj_property name="ObjectShortName">douta[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_1_blk_mem_addr" type="array">
+            <obj_property name="ElementShortName">weight_1_blk_mem_addr[5:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_1_blk_mem_addr[5:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_1_blk_mem_ena" type="logic">
+            <obj_property name="ElementShortName">weight_1_blk_mem_ena</obj_property>
+            <obj_property name="ObjectShortName">weight_1_blk_mem_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_1_blk_mem_data" type="array">
+            <obj_property name="ElementShortName">weight_1_blk_mem_data[127:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_1_blk_mem_data[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_2_blk_mem_addr" type="array">
+            <obj_property name="ElementShortName">weight_2_blk_mem_addr[7:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_2_blk_mem_addr[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_2_blk_mem_ena" type="logic">
+            <obj_property name="ElementShortName">weight_2_blk_mem_ena</obj_property>
+            <obj_property name="ObjectShortName">weight_2_blk_mem_ena</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/weight_2_blk_mem_data" type="array">
+            <obj_property name="ElementShortName">weight_2_blk_mem_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_2_blk_mem_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/mask_l1_w" type="array">
+            <obj_property name="ElementShortName">mask_l1_w[0:3][255:0]</obj_property>
+            <obj_property name="ObjectShortName">mask_l1_w[0:3][255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/mask_l2_w" type="array">
+            <obj_property name="ElementShortName">mask_l2_w[0:8][127:0]</obj_property>
+            <obj_property name="ObjectShortName">mask_l2_w[0:8][127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_mask_maker/mask_l3_w" type="array">
+            <obj_property name="ElementShortName">mask_l3_w[0:31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mask_l3_w[0:31][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1232" type="group">
+      <obj_property name="label">out_writer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/dst_addr_wr" type="array">
+         <obj_property name="ElementShortName">dst_addr_wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dst_addr_wr[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/blk_addr_wr" type="array">
+         <obj_property name="ElementShortName">blk_addr_wr[23:0]</obj_property>
+         <obj_property name="ObjectShortName">blk_addr_wr[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/dma_data_last_wr" type="logic">
+         <obj_property name="ElementShortName">dma_data_last_wr</obj_property>
+         <obj_property name="ObjectShortName">dma_data_last_wr</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1307" type="group">
+      <obj_property name="label">dma_write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/u_dma_write/start_dma" type="logic">
+         <obj_property name="ElementShortName">start_dma</obj_property>
+         <obj_property name="ObjectShortName">start_dma</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/u_dma_write/num_trans" type="array">
+         <obj_property name="ElementShortName">num_trans[9:0]</obj_property>
+         <obj_property name="ObjectShortName">num_trans[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/u_dma_write/start_addr" type="array">
+         <obj_property name="ElementShortName">start_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">start_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/u_dma_write/indata" type="array">
+         <obj_property name="ElementShortName">indata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">indata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_ConvNormReluPoolWrapper_top/u_cnn_dma_wrapper/u_cnn_dma_axi/u_out_writer/u_dma_write/data_last_o" type="logic">
+         <obj_property name="ElementShortName">data_last_o</obj_property>
+         <obj_property name="ObjectShortName">data_last_o</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

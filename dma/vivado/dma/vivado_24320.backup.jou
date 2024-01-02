@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Nov 16 17:19:59 2023
+# Process ID: 24320
+# Current directory: C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23500 C:\Users\Young Jae\OneDrive - SNU\maskgenFPGA\dfx\ip\dma\vivado\dma\dma.xpr
+# Log file: C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/vivado.log
+# Journal file: C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma\vivado.jou
+# Running On: sml, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 16902 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/dma.xpr}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top initialization_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/initialization_tb_behav.wcfg}
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/cnn_wrapper_tb.wcfg}
+source initialization_tb.tcl
+run 18 us
+run 5 ms
+run 1 ms
+relaunch_sim
+run 6 ms
+relaunch_sim
+run 6 ms
+relaunch_sim
+run 6 ms
+relaunch_sim
+run 6 ms
+relaunch_sim
+run 6 ms
+relaunch_sim
+run 6 ms
+run 2 ms
+run 2 ms
+run 4 ms
+relaunch_sim
+run 11.7 ms
+relaunch_sim
+run 11.7 ms
+relaunch_sim
+run 11.7 ms
+save_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/initialization_tb_behav.wcfg}
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top apatb_ConvNormReluPoolWrapper_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/initialization_tb_behav.wcfg}
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/cnn_wrapper_tb.wcfg}
+source apatb_ConvNormReluPoolWrapper_top.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top initialization_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/initialization_tb_behav.wcfg}
+open_wave_config {C:/Users/Young Jae/OneDrive - SNU/maskgenFPGA/dfx/ip/dma/vivado/dma/cnn_wrapper_tb.wcfg}
+source initialization_tb.tcl
+run 11.7 ms
+close_sim

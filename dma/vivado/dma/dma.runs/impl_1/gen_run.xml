@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tsbg484-1" LaunchTime="1701228479">
+  <File Type="PA-TCL" Name="cnn_dma_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="cnn_dma_wrapper_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="cnn_dma_wrapper.msk"/>
+  <File Type="RDI-RDI" Name="cnn_dma_wrapper.vdi"/>
+  <File Type="PA-DCP" Name="cnn_dma_wrapper.dcp"/>
+  <File Type="BG-BIT" Name="cnn_dma_wrapper.bit"/>
+  <File Type="BG-DRC" Name="cnn_dma_wrapper.drc"/>
+  <File Type="BG-BGN" Name="cnn_dma_wrapper.bgn"/>
+  <File Type="BG-BIN" Name="cnn_dma_wrapper.bin"/>
+  <File Type="BITSTR-RBT" Name="cnn_dma_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="cnn_dma_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="cnn_dma_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="cnn_dma_wrapper.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="cnn_dma_wrapper.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="cnn_dma_wrapper.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="cnn_dma_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="cnn_dma_wrapper.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cnn_dma_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="cnn_dma_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cnn_dma_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cnn_dma_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="cnn_dma_wrapper_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="cnn_dma_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="cnn_dma_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="cnn_dma_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cnn_dma_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="cnn_dma_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cnn_dma_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cnn_dma_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="cnn_dma_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="cnn_dma_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="cnn_dma_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="cnn_dma_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="cnn_dma_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="cnn_dma_wrapper.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../verilog/S_axilite.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/act_shifter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/act_shifter.v"/>
+        <Attr Name="ImportTime" Val="1687135457"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/params.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/axi_dma_rd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/axi_dma_wr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/bias_shifter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/bias_shifter.v"/>
+        <Attr Name="ImportTime" Val="1690455777"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/bnorm_quant_act.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/bnorm_quant_act.v"/>
+        <Attr Name="ImportTime" Val="1690525037"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/cnn_dma_axi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/cnn_fsm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/conv_kern.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/conv_kern.v"/>
+        <Attr Name="ImportTime" Val="1690525078"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/conv_kern_wrapper_mask.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/conv_kern_wrapper_mask.v"/>
+        <Attr Name="ImportTime" Val="1690370250"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/dsp_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/dsp_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1687135457"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/dual_port_block_ram.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/cnn_accel_h.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/mac.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/mac.v"/>
+        <Attr Name="ImportTime" Val="1688621815"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/mac_kern.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/mac_kern.v"/>
+        <Attr Name="ImportTime" Val="1690274214"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/mask_gen_fsm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/mask_gen_fsm.v"/>
+        <Attr Name="ImportTime" Val="1690353121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mask_calc/mask_maker.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../CAPP code/sparse-srcnn/code/hw/mask_calc/mask_maker.v"/>
+        <Attr Name="ImportTime" Val="1691988293"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/out_writer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/reg_fifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/cnn_dma_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/AESL_axi_master_memory_bus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/AESL_axi_slave_axilite.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/ConvNormReluPoolWrapper.autotb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog/ConvNormReluPoolWrapper_memory_bus_m_axi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/python_scripts/mask_biases.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../python_scripts/mask_biases.coe"/>
+        <Attr Name="ImportTime" Val="1693195322"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/python_scripts/mask_scales.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../python_scripts/mask_scales.coe"/>
+        <Attr Name="ImportTime" Val="1693195494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/python_scripts/mask_weights_layer0.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../python_scripts/mask_weights_layer0.coe"/>
+        <Attr Name="ImportTime" Val="1693197402"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/python_scripts/mask_weights_layer1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../python_scripts/mask_weights_layer1.coe"/>
+        <Attr Name="ImportTime" Val="1693197402"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/python_scripts/mask_weights_layer2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../python_scripts/mask_weights_layer2.coe"/>
+        <Attr Name="ImportTime" Val="1693197407"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/m3/convout_L3.hex">
+      <FileInfo SFType="MIF">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../intelFPGA/sparsecnn/sparsecnn/out_sw/m3/convout_L3.hex"/>
+        <Attr Name="ImportTime" Val="1690529769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/omap_b.txt">
+      <FileInfo SFType="MEM">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../maskgenfpga/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <File Path="$PPRDIR/../../verilog/cnn_accel_h.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/line_buffer_wrapper_l1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/m3/convout_L2.hex">
+      <FileInfo SFType="MIF">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../intelFPGA/sparsecnn/sparsecnn/out_sw/m3/convout_L2.hex"/>
+        <Attr Name="ImportTime" Val="1689849287"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/line_buffer_wrapper_l2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/l2_o_data_128x4096/l2_o_data_128x4096.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bmp_image_writer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cnn_dma_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/maskgenFPGA/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1700016121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/maskgenFPGA/Nexys-Video-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Nexys-Video-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1701225796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PPRDIR/../../../../../../../../../maskgenFPGA/ip/dma/vivado/dma/dma.srcs/utils_1/imports/synth_1/cnn_dma_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="weight_2_blk_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="axi_clock_converter_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ifm_data_128x32768"/>
+  <BlockFileSet Type="BlockSrcs" Name="bias_blk_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="axilite_clock_converter_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="weight_0_blk_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="scale_blk_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="weight_1_blk_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="layer1_line_buffer_128x256"/>
+  <BlockFileSet Type="BlockSrcs" Name="layer2_line_buffer_192x32"/>
+  <BlockFileSet Type="BlockSrcs" Name="l1_o_data_128x4096"/>
+</GenRun>

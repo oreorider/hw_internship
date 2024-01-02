@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="initialization_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="initialization_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,198,769.077 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,198,857.117 ns"></ZoomEndTime>
+      <Cursor1Time time="1,198,805.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="318"></NameColumnWidth>
+      <ValueColumnWidth column_width="119"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/initialization_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="group600" type="group">
+      <obj_property name="label">bias</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">bias_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_addr_d" type="array">
+         <obj_property name="ElementShortName">bias_blk_mem_addr_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_addr_d[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">bias_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">bias_blk_mem_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/read_bias_data_count" type="array">
+         <obj_property name="ElementShortName">read_bias_data_count[10:0]</obj_property>
+         <obj_property name="ObjectShortName">read_bias_data_count[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/read_bias_data_count_d" type="array">
+         <obj_property name="ElementShortName">read_bias_data_count_d[10:0]</obj_property>
+         <obj_property name="ObjectShortName">read_bias_data_count_d[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l1_b" type="array">
+         <obj_property name="ElementShortName">mask_l1_b[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l1_b[0:3][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l2_b" type="array">
+         <obj_property name="ElementShortName">mask_l2_b[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l2_b[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l3_b" type="array">
+         <obj_property name="ElementShortName">mask_l3_b[0:31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l3_b[0:31][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group601" type="group">
+      <obj_property name="label">scale</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">scale_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_addr_d" type="array">
+         <obj_property name="ElementShortName">scale_blk_mem_addr_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_addr_d[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">scale_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">scale_blk_mem_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/read_scale_data_count" type="array">
+         <obj_property name="ElementShortName">read_scale_data_count[10:0]</obj_property>
+         <obj_property name="ObjectShortName">read_scale_data_count[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l1_s" type="array">
+         <obj_property name="ElementShortName">mask_l1_s[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l1_s[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l2_s" type="array">
+         <obj_property name="ElementShortName">mask_l2_s[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l2_s[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l3_s" type="array">
+         <obj_property name="ElementShortName">mask_l3_s[0:31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l3_s[0:31][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group602" type="group">
+      <obj_property name="label">weight0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">weight_0_blk_mem_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_addr_d" type="array">
+         <obj_property name="ElementShortName">weight_0_blk_mem_addr_d[4:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_addr_d[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">weight_0_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">weight_0_blk_mem_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/read_weight_0_data_count" type="array">
+         <obj_property name="ElementShortName">read_weight_0_data_count[10:0]</obj_property>
+         <obj_property name="ObjectShortName">read_weight_0_data_count[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group603" type="group">
+      <obj_property name="label">weight1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">weight_1_blk_mem_addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_addr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_addr_d" type="array">
+         <obj_property name="ElementShortName">weight_1_blk_mem_addr_d[5:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_addr_d[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">weight_1_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">weight_1_blk_mem_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/read_weight_1_data_count" type="array">
+         <obj_property name="ElementShortName">read_weight_1_data_count[10:0]</obj_property>
+         <obj_property name="ObjectShortName">read_weight_1_data_count[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group604" type="group">
+      <obj_property name="label">weight2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/read_weight_2_data_count" type="array">
+         <obj_property name="ElementShortName">read_weight_2_data_count[10:0]</obj_property>
+         <obj_property name="ObjectShortName">read_weight_2_data_count[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">weight_2_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_addr_d" type="array">
+         <obj_property name="ElementShortName">weight_2_blk_mem_addr_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_addr_d[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">weight_2_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">weight_2_blk_mem_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_data[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/conv_out_pix" type="array">
+      <obj_property name="ElementShortName">conv_out_pix[7:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_pix[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/conv_out_pix_vld" type="logic">
+      <obj_property name="ElementShortName">conv_out_pix_vld</obj_property>
+      <obj_property name="ObjectShortName">conv_out_pix_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="group398" type="group">
+      <obj_property name="label">[tb] mask_maker outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/initialization_tb/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/finished_receiving" type="logic">
+         <obj_property name="ElementShortName">finished_receiving</obj_property>
+         <obj_property name="ObjectShortName">finished_receiving</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/omask_buffer_idx" type="array">
+         <obj_property name="ElementShortName">omask_buffer_idx[18:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_buffer_idx[18:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/omask_out_pix" type="array">
+         <obj_property name="ElementShortName">omask_out_pix[31:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/omask_out_pix_vld" type="logic">
+         <obj_property name="ElementShortName">omask_out_pix_vld</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix_vld</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group486" type="group">
+      <obj_property name="label">[mm] mask_maker outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_idx" type="array">
+         <obj_property name="ElementShortName">omask_out_idx[18:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_idx[18:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/frame_done" type="array">
+         <obj_property name="ElementShortName">frame_done[31:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_done[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_pix" type="array">
+         <obj_property name="ElementShortName">omask_out_pix[31:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_pix_vld" type="logic">
+         <obj_property name="ElementShortName">omask_out_pix_vld</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix_vld</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

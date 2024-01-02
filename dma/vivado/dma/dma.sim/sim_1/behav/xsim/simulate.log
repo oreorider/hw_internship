@@ -1,0 +1,80 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_bias_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_scale_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_weight_0_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_weight_1_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_weight_2_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_ifm_data.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_l1_o_data.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_l2_o_data.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l1.u_line_buf_l1.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l2.u_line_buf_l2_0.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l2.u_line_buf_l2_1.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l2.u_line_buf_l2_2.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_bias_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_scale_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_weight_0_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_weight_1_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_weight_2_blk_mem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_ifm_data.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_l1_o_data.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_l2_o_data.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l1.u_line_buf_l1.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l2.u_line_buf_l2_0.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l2.u_line_buf_l2_1.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module apatb_ConvNormReluPoolWrapper_top.u_cnn_dma_wrapper.u_cnn_dma_axi.u_mask_maker.u_line_buf_wrapper_l2.u_line_buf_l2_2.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+INFO: xsimkernel Simulation Memory Usage: 615240 KB (Peak: 615240 KB), Simulation CPU Usage: 32921 ms

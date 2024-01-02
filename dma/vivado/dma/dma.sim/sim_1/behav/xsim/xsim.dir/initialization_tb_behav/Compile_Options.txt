@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "axi_infrastructure_v1_1_0" -L "fifo_generator_v13_2_6" -L "axi_clock_converter_v2_1_24" -L "blk_mem_gen_v8_4_5" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "initialization_tb_behav" "xil_defaultlib.initialization_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

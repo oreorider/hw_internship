@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="initialization_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="initialization_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,753.035900 us"></ZoomStartTime>
+      <ZoomEndTime time="6,001.910820 us"></ZoomEndTime>
+      <Cursor1Time time="5,793.765000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="295"></NameColumnWidth>
+      <ValueColumnWidth column_width="388"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/initialization_tb/u_mask_maker/maskgen_finished" type="logic">
+      <obj_property name="ElementShortName">maskgen_finished</obj_property>
+      <obj_property name="ObjectShortName">maskgen_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/vld_o" type="array">
+      <obj_property name="ElementShortName">vld_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vld_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/acc_o" type="array">
+      <obj_property name="ElementShortName">acc_o[127:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_o[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group205" type="group">
+      <obj_property name="label">write to l1_o_data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_addr_adv" type="array">
+         <obj_property name="ElementShortName">l1_o_data_addr_adv[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_addr_adv[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_addr" type="array">
+         <obj_property name="ElementShortName">l1_o_data_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_addr[11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_ena" type="logic">
+         <obj_property name="ElementShortName">l1_o_data_ena</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_wr_ena" type="logic">
+         <obj_property name="ElementShortName">l1_o_data_wr_ena</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_wr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_wr_data" type="array">
+         <obj_property name="ElementShortName">l1_o_data_wr_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_wr_data[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/read_l1_o_data_finished" type="logic">
+      <obj_property name="ElementShortName">read_l1_o_data_finished</obj_property>
+      <obj_property name="ObjectShortName">read_l1_o_data_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="group29" type="group">
+      <obj_property name="label">read from l1_o_data write to line buf 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/inc_batch_pulse" type="logic">
+         <obj_property name="ElementShortName">inc_batch_pulse</obj_property>
+         <obj_property name="ObjectShortName">inc_batch_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/load_batch_pulse" type="logic">
+         <obj_property name="ElementShortName">load_batch_pulse</obj_property>
+         <obj_property name="ObjectShortName">load_batch_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/is_finished_state" type="logic">
+         <obj_property name="ElementShortName">is_finished_state</obj_property>
+         <obj_property name="ObjectShortName">is_finished_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_ena" type="logic">
+         <obj_property name="ElementShortName">l1_o_data_ena</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/base_line_addr" type="array">
+         <obj_property name="ElementShortName">base_line_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">base_line_addr[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/layer1_current_batch" type="array">
+         <obj_property name="ElementShortName">layer1_current_batch[11:0]</obj_property>
+         <obj_property name="ObjectShortName">layer1_current_batch[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_addr" type="array">
+         <obj_property name="ElementShortName">l1_o_data_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_addr[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_addr_adv" type="array">
+         <obj_property name="ElementShortName">l1_o_data_addr_adv[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_addr_adv[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l1_o_data_rd_data" type="array">
+         <obj_property name="ElementShortName">l1_o_data_rd_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">l1_o_data_rd_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/line_buf_l2_receiving" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_receiving</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_receiving</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_latch_done" type="logic">
+         <obj_property name="ElementShortName">l2_latch_done</obj_property>
+         <obj_property name="ObjectShortName">l2_latch_done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group41" type="group">
+      <obj_property name="label">l2_buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/cstate" type="array">
+         <obj_property name="ElementShortName">cstate[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cstate[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/latch_done" type="logic">
+         <obj_property name="ElementShortName">latch_done</obj_property>
+         <obj_property name="ObjectShortName">latch_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/is_receiving_state" type="logic">
+         <obj_property name="ElementShortName">is_receiving_state</obj_property>
+         <obj_property name="ObjectShortName">is_receiving_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_load" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_load</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_output" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_output</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_output</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/tmp_inputs" type="array">
+         <obj_property name="ElementShortName">tmp_inputs[2:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">tmp_inputs[2:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_wr_data" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_wr_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_wr_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/tmp_write" type="array">
+         <obj_property name="ElementShortName">tmp_write[191:0]</obj_property>
+         <obj_property name="ObjectShortName">tmp_write[191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/receiving_col_cnt" type="array">
+         <obj_property name="ElementShortName">receiving_col_cnt[5:0]</obj_property>
+         <obj_property name="ObjectShortName">receiving_col_cnt[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/receiving_col_cnt_d1" type="array">
+         <obj_property name="ElementShortName">receiving_col_cnt_d1[5:0]</obj_property>
+         <obj_property name="ObjectShortName">receiving_col_cnt_d1[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/writing_line_cnt" type="array">
+         <obj_property name="ElementShortName">writing_line_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">writing_line_cnt[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_rd_addr" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_rd_addr[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_0_ena" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_0_ena</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_0_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_0_wr_ena" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_0_wr_ena</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_0_wr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_0_addr" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_0_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_0_addr[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_1_ena" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_1_ena</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_1_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_1_wr_ena" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_1_wr_ena</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_1_wr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_1_addr" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_1_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_1_addr[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_2_ena" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_2_ena</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_2_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_2_wr_ena" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_2_wr_ena</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_2_wr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_2_addr" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_2_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_2_addr[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_0_rd_data" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_0_rd_data[191:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_0_rd_data[191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_1_rd_data" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_1_rd_data[191:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_1_rd_data[191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_2_rd_data" type="array">
+         <obj_property name="ElementShortName">line_buf_l2_2_rd_data[191:0]</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_2_rd_data[191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/restructured_data" type="array">
+         <obj_property name="ElementShortName">restructured_data[191:0]</obj_property>
+         <obj_property name="ObjectShortName">restructured_data[191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/is_last_batch_col" type="logic">
+         <obj_property name="ElementShortName">is_last_batch_col</obj_property>
+         <obj_property name="ObjectShortName">is_last_batch_col</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/is_first_batch_col" type="logic">
+         <obj_property name="ElementShortName">is_first_batch_col</obj_property>
+         <obj_property name="ObjectShortName">is_first_batch_col</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/zeroth_batch" type="array">
+         <obj_property name="ElementShortName">zeroth_batch[191:0]</obj_property>
+         <obj_property name="ObjectShortName">zeroth_batch[191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/zeroth_batch_write" type="logic">
+         <obj_property name="ElementShortName">zeroth_batch_write</obj_property>
+         <obj_property name="ObjectShortName">zeroth_batch_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l2/line_buf_l2_skip" type="logic">
+         <obj_property name="ElementShortName">line_buf_l2_skip</obj_property>
+         <obj_property name="ObjectShortName">line_buf_l2_skip</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">fsm ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ctrl_data_run" type="logic">
+         <obj_property name="ElementShortName">ctrl_data_run</obj_property>
+         <obj_property name="ObjectShortName">ctrl_data_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ctrl_sync_run" type="logic">
+         <obj_property name="ElementShortName">ctrl_sync_run</obj_property>
+         <obj_property name="ObjectShortName">ctrl_sync_run</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ctrl_load_batch" type="logic">
+         <obj_property name="ElementShortName">ctrl_load_batch</obj_property>
+         <obj_property name="ObjectShortName">ctrl_load_batch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/pix_idx" type="array">
+         <obj_property name="ElementShortName">pix_idx[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pix_idx[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_mask_gen_fsm/cstate" type="array">
+         <obj_property name="ElementShortName">cstate[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cstate[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_mask_gen_fsm/local_row_idx" type="array">
+         <obj_property name="ElementShortName">local_row_idx[9:0]</obj_property>
+         <obj_property name="ObjectShortName">local_row_idx[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_mask_gen_fsm/local_col_idx" type="array">
+         <obj_property name="ElementShortName">local_col_idx[9:0]</obj_property>
+         <obj_property name="ObjectShortName">local_col_idx[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_mask_gen_fsm/end_of_line" type="logic">
+         <obj_property name="ElementShortName">end_of_line</obj_property>
+         <obj_property name="ObjectShortName">end_of_line</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_mask_gen_fsm/mask_layer" type="array">
+         <obj_property name="ElementShortName">mask_layer[1:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_layer[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_mask_gen_fsm/nstate" type="array">
+         <obj_property name="ElementShortName">nstate[2:0]</obj_property>
+         <obj_property name="ObjectShortName">nstate[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/local_col_idx" type="array">
+      <obj_property name="ElementShortName">local_col_idx[9:0]</obj_property>
+      <obj_property name="ObjectShortName">local_col_idx[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group266" type="group">
+      <obj_property name="label">kernel input/output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/win3" type="array">
+         <obj_property name="ElementShortName">win3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">win3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/win2" type="array">
+         <obj_property name="ElementShortName">win2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">win2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/win1" type="array">
+         <obj_property name="ElementShortName">win1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">win1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/win0" type="array">
+         <obj_property name="ElementShortName">win0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">win0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/din0" type="array">
+         <obj_property name="ElementShortName">din0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/din1" type="array">
+         <obj_property name="ElementShortName">din1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/din2" type="array">
+         <obj_property name="ElementShortName">din2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/din3" type="array">
+         <obj_property name="ElementShortName">din3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din3[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider642">
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/vld_o" type="array">
+         <obj_property name="ElementShortName">vld_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">vld_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/acc_o" type="array">
+         <obj_property name="ElementShortName">acc_o[127:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_o[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/pix_idx_d2" type="array">
+         <obj_property name="ElementShortName">pix_idx_d2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pix_idx_d2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias" type="array">
+         <obj_property name="ElementShortName">bias[63:0]</obj_property>
+         <obj_property name="ObjectShortName">bias[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale" type="array">
+         <obj_property name="ElementShortName">scale[63:0]</obj_property>
+         <obj_property name="ObjectShortName">scale[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/vld_i" type="logic">
+         <obj_property name="ElementShortName">vld_i</obj_property>
+         <obj_property name="ObjectShortName">vld_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/vld_i_st" type="logic">
+         <obj_property name="ElementShortName">vld_i_st</obj_property>
+         <obj_property name="ObjectShortName">vld_i_st</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/vld_i_ed" type="logic">
+         <obj_property name="ElementShortName">vld_i_ed</obj_property>
+         <obj_property name="ObjectShortName">vld_i_ed</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/ctrl_data_run" type="logic">
+      <obj_property name="ElementShortName">ctrl_data_run</obj_property>
+      <obj_property name="ObjectShortName">ctrl_data_run</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2799" type="group">
+      <obj_property name="label">boundary cond</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/is_first_col" type="logic">
+         <obj_property name="ElementShortName">is_first_col</obj_property>
+         <obj_property name="ObjectShortName">is_first_col</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/is_last_col" type="logic">
+         <obj_property name="ElementShortName">is_last_col</obj_property>
+         <obj_property name="ObjectShortName">is_last_col</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/is_first_row" type="logic">
+         <obj_property name="ElementShortName">is_first_row</obj_property>
+         <obj_property name="ObjectShortName">is_first_row</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/is_last_row" type="logic">
+         <obj_property name="ElementShortName">is_last_row</obj_property>
+         <obj_property name="ObjectShortName">is_last_row</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group212" type="group">
+      <obj_property name="label">l2_o_data signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_ena" type="logic">
+         <obj_property name="ElementShortName">l2_o_data_ena</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_wr_ena" type="logic">
+         <obj_property name="ElementShortName">l2_o_data_wr_ena</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_wr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_wr_data" type="array">
+         <obj_property name="ElementShortName">l2_o_data_wr_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_wr_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_addr_adv" type="array">
+         <obj_property name="ElementShortName">l2_o_data_addr_adv[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_addr_adv[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_addr" type="array">
+         <obj_property name="ElementShortName">l2_o_data_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_addr[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_rd_data" type="array">
+         <obj_property name="ElementShortName">l2_o_data_rd_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_rd_data[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/read_IFM_finished" type="logic">
+      <obj_property name="ElementShortName">read_IFM_finished</obj_property>
+      <obj_property name="ObjectShortName">read_IFM_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="group219" type="group">
+      <obj_property name="label">l2_o_data rd stuff</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_addr" type="array">
+         <obj_property name="ElementShortName">l2_o_data_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_addr[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/batch_ch_idx" type="array">
+         <obj_property name="ElementShortName">batch_ch_idx[3:0]</obj_property>
+         <obj_property name="ObjectShortName">batch_ch_idx[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/batch_ch_idx_d1" type="array">
+         <obj_property name="ElementShortName">batch_ch_idx_d1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">batch_ch_idx_d1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/batch_ch_idx_d2" type="array">
+         <obj_property name="ElementShortName">batch_ch_idx_d2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">batch_ch_idx_d2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/batch_ch_idx_d3" type="array">
+         <obj_property name="ElementShortName">batch_ch_idx_d3[3:0]</obj_property>
+         <obj_property name="ObjectShortName">batch_ch_idx_d3[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/l2_o_data_rd_data" type="array">
+         <obj_property name="ElementShortName">l2_o_data_rd_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">l2_o_data_rd_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/layer3_din" type="array">
+         <obj_property name="ElementShortName">layer3_din[127:0]</obj_property>
+         <obj_property name="ObjectShortName">layer3_din[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/col" type="array">
+         <obj_property name="ElementShortName">col[11:0]</obj_property>
+         <obj_property name="ObjectShortName">col[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/col_d1" type="array">
+         <obj_property name="ElementShortName">col_d1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">col_d1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/col_d2" type="array">
+         <obj_property name="ElementShortName">col_d2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">col_d2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/output_pixel_cnt" type="array">
+         <obj_property name="ElementShortName">output_pixel_cnt[19:0]</obj_property>
+         <obj_property name="ObjectShortName">output_pixel_cnt[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/mask_layer" type="array">
+      <obj_property name="ElementShortName">mask_layer[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mask_layer[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group834" type="group">
+      <obj_property name="label">write back to ifm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ifm_data_wr_data" type="array">
+         <obj_property name="ElementShortName">ifm_data_wr_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">ifm_data_wr_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ifm_data_addr_adv" type="array">
+         <obj_property name="ElementShortName">ifm_data_addr_adv[14:0]</obj_property>
+         <obj_property name="ObjectShortName">ifm_data_addr_adv[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ifm_data_addr" type="array">
+         <obj_property name="ElementShortName">ifm_data_addr[14:0]</obj_property>
+         <obj_property name="ObjectShortName">ifm_data_addr[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ifm_data_ena" type="logic">
+         <obj_property name="ElementShortName">ifm_data_ena</obj_property>
+         <obj_property name="ObjectShortName">ifm_data_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_rd_cnt" type="array">
+         <obj_property name="ElementShortName">omask_out_rd_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_rd_cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_rd_cnt_d1" type="array">
+         <obj_property name="ElementShortName">omask_out_rd_cnt_d1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_rd_cnt_d1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_rd_cnt_d2" type="array">
+         <obj_property name="ElementShortName">omask_out_rd_cnt_d2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_rd_cnt_d2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ifm_data_rd_data" type="array">
+         <obj_property name="ElementShortName">ifm_data_rd_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">ifm_data_rd_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider627">
+         <obj_property name="label">read data</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_pix_buffer" type="array">
+         <obj_property name="ElementShortName">omask_out_pix_buffer[7:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix_buffer[7:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ifm_data_wr_ena" type="logic">
+         <obj_property name="ElementShortName">ifm_data_wr_ena</obj_property>
+         <obj_property name="ObjectShortName">ifm_data_wr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_pix" type="array">
+         <obj_property name="ElementShortName">omask_out_pix[31:0]</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/omask_out_pix_vld" type="logic">
+         <obj_property name="ElementShortName">omask_out_pix_vld</obj_property>
+         <obj_property name="ObjectShortName">omask_out_pix_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/burst_count" type="array">
+         <obj_property name="ElementShortName">burst_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">burst_count[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/burst_count_adv" type="array">
+         <obj_property name="ElementShortName">burst_count_adv[4:0]</obj_property>
+         <obj_property name="ObjectShortName">burst_count_adv[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/burst_delay" type="array">
+         <obj_property name="ElementShortName">burst_delay[6:0]</obj_property>
+         <obj_property name="ObjectShortName">burst_delay[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/sender_cstate" type="array">
+         <obj_property name="ElementShortName">sender_cstate[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sender_cstate[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/sender_cstate_d1" type="array">
+         <obj_property name="ElementShortName">sender_cstate_d1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sender_cstate_d1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/sender_cstate_d2" type="array">
+         <obj_property name="ElementShortName">sender_cstate_d2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sender_cstate_d2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bit_sel" type="array">
+         <obj_property name="ElementShortName">bit_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/idx_sel" type="array">
+         <obj_property name="ElementShortName">idx_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_sel[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/finished_sending" type="logic">
+         <obj_property name="ElementShortName">finished_sending</obj_property>
+         <obj_property name="ObjectShortName">finished_sending</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/sender_finished_reading" type="logic">
+         <obj_property name="ElementShortName">sender_finished_reading</obj_property>
+         <obj_property name="ObjectShortName">sender_finished_reading</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/all_done" type="logic">
+      <obj_property name="ElementShortName">all_done</obj_property>
+      <obj_property name="ObjectShortName">all_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/last_pix" type="logic">
+      <obj_property name="ElementShortName">last_pix</obj_property>
+      <obj_property name="ObjectShortName">last_pix</obj_property>
+   </wvobject>
+   <wvobject fp_name="group5519" type="group">
+      <obj_property name="label">blk mem signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/ap_start_d" type="logic">
+         <obj_property name="ElementShortName">ap_start_d</obj_property>
+         <obj_property name="ObjectShortName">ap_start_d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/blk_mem_cstate" type="array">
+         <obj_property name="ElementShortName">blk_mem_cstate[2:0]</obj_property>
+         <obj_property name="ObjectShortName">blk_mem_cstate[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/blk_mem_nstate" type="array">
+         <obj_property name="ElementShortName">blk_mem_nstate[2:0]</obj_property>
+         <obj_property name="ObjectShortName">blk_mem_nstate[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/blk_mem_init_finish" type="logic">
+         <obj_property name="ElementShortName">blk_mem_init_finish</obj_property>
+         <obj_property name="ObjectShortName">blk_mem_init_finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">bias_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">bias_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/bias_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">bias_blk_mem_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">bias_blk_mem_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">scale_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">scale_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/scale_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">scale_blk_mem_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blk_mem_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">weight_0_blk_mem_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">weight_0_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_0_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">weight_0_blk_mem_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_0_blk_mem_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">weight_1_blk_mem_addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_addr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">weight_1_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_1_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">weight_1_blk_mem_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_1_blk_mem_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_addr" type="array">
+         <obj_property name="ElementShortName">weight_2_blk_mem_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_ena" type="logic">
+         <obj_property name="ElementShortName">weight_2_blk_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/weight_2_blk_mem_data" type="array">
+         <obj_property name="ElementShortName">weight_2_blk_mem_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_2_blk_mem_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l1_w" type="array">
+         <obj_property name="ElementShortName">mask_l1_w[0:3][255:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l1_w[0:3][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l1_b" type="array">
+         <obj_property name="ElementShortName">mask_l1_b[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l1_b[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l1_s" type="array">
+         <obj_property name="ElementShortName">mask_l1_s[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l1_s[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l2_w" type="array">
+         <obj_property name="ElementShortName">mask_l2_w[0:8][127:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l2_w[0:8][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l2_b" type="array">
+         <obj_property name="ElementShortName">mask_l2_b[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l2_b[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l2_s" type="array">
+         <obj_property name="ElementShortName">mask_l2_s[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l2_s[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l3_w" type="array">
+         <obj_property name="ElementShortName">mask_l3_w[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l3_w[0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l3_b" type="array">
+         <obj_property name="ElementShortName">mask_l3_b[0:31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l3_b[0:31][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/mask_l3_s" type="array">
+         <obj_property name="ElementShortName">mask_l3_s[0:31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_l3_s[0:31][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1089" type="group">
+      <obj_property name="label">bmp writer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/pixel_count" type="array">
+         <obj_property name="ElementShortName">pixel_count[13:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_count[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/frame_done" type="logic">
+         <obj_property name="ElementShortName">frame_done</obj_property>
+         <obj_property name="ObjectShortName">frame_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/din0" type="array">
+         <obj_property name="ElementShortName">din0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/din1" type="array">
+         <obj_property name="ElementShortName">din1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/din2" type="array">
+         <obj_property name="ElementShortName">din2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/initialization_tb/u_mask_maker/u_bmp_image_writer_00/din3" type="array">
+         <obj_property name="ElementShortName">din3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din3[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/initialization_tb/u_mask_maker/u_line_buf_wrapper_l1/cstate" type="array">
+      <obj_property name="ElementShortName">cstate[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cstate[2:0]</obj_property>
+   </wvobject>
+</wave_config>

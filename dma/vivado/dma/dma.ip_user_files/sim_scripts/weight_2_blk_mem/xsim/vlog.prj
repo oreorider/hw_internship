@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../dma.gen/sources_1/ip/weight_2_blk_mem/sim/weight_2_blk_mem.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

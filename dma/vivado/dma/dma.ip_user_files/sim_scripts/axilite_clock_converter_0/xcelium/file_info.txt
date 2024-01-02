@@ -1,0 +1,10 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../TOOLS/XILINX/Vivado/2021.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+xpm_memory.sv,systemverilog,xpm,../../../../../../../TOOLS/XILINX/Vivado/2021.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../TOOLS/XILINX/Vivado/2021.2/data/ip/xpm/xpm_VCOMP.vhd,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axi_infrastructure_v1_1_vl_rfs.v,verilog,axi_infrastructure_v1_1_0,../../../ipstatic/hdl/axi_infrastructure_v1_1_vl_rfs.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+fifo_generator_vlog_beh.v,verilog,fifo_generator_v13_2_6,../../../ipstatic/simulation/fifo_generator_vlog_beh.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+fifo_generator_v13_2_rfs.vhd,vhdl,fifo_generator_v13_2_6,../../../ipstatic/hdl/fifo_generator_v13_2_rfs.vhd,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+fifo_generator_v13_2_rfs.v,verilog,fifo_generator_v13_2_6,../../../ipstatic/hdl/fifo_generator_v13_2_rfs.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axi_clock_converter_v2_1_vl_rfs.v,verilog,axi_clock_converter_v2_1_24,../../../ipstatic/hdl/axi_clock_converter_v2_1_vl_rfs.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axilite_clock_converter_0.v,verilog,xil_defaultlib,../../../../dma.gen/sources_1/ip/axilite_clock_converter_0/sim/axilite_clock_converter_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

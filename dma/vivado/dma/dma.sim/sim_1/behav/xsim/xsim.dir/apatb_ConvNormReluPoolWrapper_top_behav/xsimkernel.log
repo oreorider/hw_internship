@@ -1,0 +1,7 @@
+Running: xsim.dir/apatb_ConvNormReluPoolWrapper_top_behav/xsimk.exe -simmode gui -wdb apatb_ConvNormReluPoolWrapper_top_behav.wdb -simrunnum 0 -socket 54625
+Design successfully loaded
+Design Loading Memory Usage: 17984 KB (Peak: 17984 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 615240 KB (Peak: 615240 KB)
+Simulation CPU Usage: 32921 ms

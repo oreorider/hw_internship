@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="layer1_line_buffer_128x256_synth_1" LaunchPart="xc7a200tsbg484-1" LaunchTime="1701226766">
+  <File Type="PA-TCL" Name="layer1_line_buffer_128x256.tcl"/>
+  <File Type="REPORTS-TCL" Name="layer1_line_buffer_128x256_reports.tcl"/>
+  <File Type="RDS-RDS" Name="layer1_line_buffer_128x256.vds"/>
+  <File Type="RDS-DCP" Name="layer1_line_buffer_128x256.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/layer1_line_buffer_128x256">
+    <File Path="$PSRCDIR/sources_1/ip/layer1_line_buffer_128x256/layer1_line_buffer_128x256.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="layer1_line_buffer_128x256"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/layer1_line_buffer_128x256">
+    <File Path="$PSRCDIR/sources_1/ip/layer1_line_buffer_128x256/layer1_line_buffer_128x256.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="layer1_line_buffer_128x256"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PPRDIR/../../../../../../../../../maskgenFPGA/ip/dma/vivado/dma/dma.srcs/utils_1/imports/synth_1/cnn_dma_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
